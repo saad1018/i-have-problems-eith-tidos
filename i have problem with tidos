@@ -1,0 +1,21 @@
+hi 
+i have problem with tidos please help me i tired a lot and the tool didnt work with me 
+python2 tidos.py
+WARNING: Failed to execute tcpdump. Check it is installed and in the PATH
+Traceback (most recent call last):
+  File "tidos.py", line 14, in <module>
+    from core.tidos_main import *
+  File "/home/saad/tidos-framework/core/tidos_main.py", line 37, in <module>
+    from core.Vulnlysis.vuln import *
+  File "/home/saad/tidos-framework/core/Vulnlysis/vuln.py", line 17, in <module>
+    from core.Vulnlysis.Oth_Bugs.othbugs import *
+  File "/home/saad/tidos-framework/core/Vulnlysis/Oth_Bugs/othbugs.py", line 22, in <module>
+    from sqlbrute import *
+  File "modules/0x03-Vulnerability+Analysis/0x03-OtherWebBugs/sqlbrute.py", line 15, in <module>
+    import mysql.connector as mysql
+ImportError: No module named mysql.connector
+
+i try install sudo pip2 install --upgrade pip setuptools wheel
+and pip2 install --ignore-installed sslyze
+pip install PyMySQL
+all this i tryed but he didnt work 
