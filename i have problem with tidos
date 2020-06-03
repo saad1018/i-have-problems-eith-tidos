@@ -19,3 +19,4 @@ i try install sudo pip2 install --upgrade pip setuptools wheel
 and pip2 install --ignore-installed sslyze
 pip install PyMySQL
 all this i tryed but he didnt work 
+im use Python 2.7.18
